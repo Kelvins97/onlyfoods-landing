@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only Foods | Real-time Demand and Supply food matching</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link
+    rel="shortcut icon"
+    href=".logo.png"
+    type="image/x-icon"
+/>
+    <style>
+        :root {
+            --light-green: #5CFF7F; /* Bright green from the logo */
+            --dark-green: #4A7C59;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(to bottom, var(--light-green), var(--dark-green));
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .social-links a {
+            color: white;
+            margin-left: 1rem;
+            font-size: 1.2rem;
+            transition: opacity 0.3s;
+        }
+        
+        .social-links a:hover {
+            opacity: 0.8;
+        }
+        
+        .content {
+            text-align: center;
+            padding: 6rem 0;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: white;
+            color: var(--dark-green);
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            border: none;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            background-color: #f8f8f8;
+        }
+        
+        .footer {
+            margin-top: auto;
+            text-align: center;
+            padding: 2rem 0;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.3rem;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .content {
+                padding: 4rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">Only Foods</div>
+            <div class="social-links">
+                <a href="https://twitter.com/youronlyfoods" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/onlyfoods" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>          
+                <a href="https://instagram.com/youronlyfoods" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </header>
+        
+        <main class="content">
+            <h1>Only Foods - Your Only Foods</h1>
+            <p class="subtitle">Real-time Demand and Supply food produce matching with Android and iOS apps. Now in alpha testing.Please check back to know more. Follow our socials to stay updated.</p>
+            <a href="https://www.onlyfoods.com">
+            <button class="cta-button">Read about our journey</button>
+           </a>
+        </main>
+        
+        <footer class="footer">
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> |<a href="https://www.onlyfoods.foods">Only Foods</a></p>
+        </footer>
+    </div>
+</body>
+</html>
